@@ -7,17 +7,14 @@ import {
 } from 'react-native';
 
 export default class Landing extends Component {
-  componentWillMount() {
-    this.props.fetchAllTodo([
-      {id:1,task:'Watch Iron Man'},
-      {id:2,task:'Cook Noodle'}
-    ])
+  static navigationOptions = {
+    header: false
   }
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          Welcome to React Natives!
         </Text>
         <Text style={styles.instructions}>
           To get started, edit index.android.js
