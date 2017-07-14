@@ -27,11 +27,11 @@ class LoginScreen extends Component{
           Screen A
         </Text>
         <Text style={styles.instructions}>
-          This is great
+          This is great we get id {params.id}
         </Text>
         <Button
-          onPress={() => navigation.dispatch({type:'Login'})}
-          title="Log in"
+          onPress={() => navigation.dispatch({type:'Landing'})}
+          title="Back to Landing"
         />
       </View>
     )

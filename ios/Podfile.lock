@@ -1,0 +1,12 @@
+PODS:
+  - SinchVerification (2.0.3)
+
+DEPENDENCIES:
+  - SinchVerification
+
+SPEC CHECKSUMS:
+  SinchVerification: 100ff5bccfd1dc641cb599897509920611050a7c
+
+PODFILE CHECKSUM: 6ccf2c1a389ebad9afb09d67d4d434337e8854e0
+
+COCOAPODS: 1.2.0

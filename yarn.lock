@@ -3458,6 +3458,12 @@ react-native-loading-spinner-overlay@^0.5.1:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/react-native-loading-spinner-overlay/-/react-native-loading-spinner-overlay-0.5.1.tgz#5484fc8511dd85038bd595746e8a6207aa72c6c1"
 
+react-native-sinch-verification@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/react-native-sinch-verification/-/react-native-sinch-verification-0.0.5.tgz#4adee9495c7bde8fc9e6d6bc0998314152658682"
+  dependencies:
+    invariant "^2.2.0"
+
 react-native-tab-view@^0.0.65:
   version "0.0.65"
   resolved "https://registry.yarnpkg.com/react-native-tab-view/-/react-native-tab-view-0.0.65.tgz#b685ea3081ff7c96486cd997361026c407302c59"

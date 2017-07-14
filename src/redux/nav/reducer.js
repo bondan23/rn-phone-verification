@@ -14,7 +14,7 @@ const initialNavState = AppNavigator.router.getStateForAction(
 export default function navReducers(state = initialNavState, action) {
   let nextState;
   switch (action.type) {
-    case 'Login':
+    case 'Landing':
       nextState = AppNavigator.router.getStateForAction(
         NavigationActions.back(),
         state
